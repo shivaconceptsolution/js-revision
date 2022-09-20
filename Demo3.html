@@ -1,0 +1,35 @@
+<html>
+<head>
+<script>
+x = [1,2,3,1,2,5,7,1]
+
+for(var i=0;i<x.length;i++) //i=1
+{
+   var count =0;    // count =0
+   for(var j=0;j<x.length;j++)  // 3
+   {
+      if(x[i] == x[j] && i!=j) // 1==1
+      {
+        count =1;
+        break
+      }
+   }
+   if(count==0)
+   {
+      document.write(x[i] + "<br>")
+   }
+
+}
+
+
+
+
+</script>
+
+</head>
+<body>
+
+
+</body>
+
+</html>
