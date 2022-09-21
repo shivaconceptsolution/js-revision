@@ -1,0 +1,23 @@
+<html>
+<head>
+<script>
+  var s = "ab@cdgmail.com"
+  var atpos = s.indexOf("@")
+  var dotpos = s.lastIndexOf(".")
+  if(atpos<2 || (dotpos-atpos)<2 || (s.length-1==dotpos))
+  {
+    document.write("Invalid Emailid")
+  }
+  else
+  {
+    document.write("Valid Email")
+  }
+
+
+</script>
+</head>
+<body>
+
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<html>
+<head>
+<script>
+   var s1 = "ravikumar is goining to market and naman meet there ssssss aaaaaaa jkl"
+   var s2 = s1.split(" ")
+  
+   for(var j=0;j<s2.length;j++)  //j=0
+   {
+    var s = s2[j];
+    
+    var c = 0
+   for(var i=0;i<s.length/2;i++)  // i=3
+   {
+       if(s[i] != s[(s.length-1)-i]) // s[1]!=s[3]
+       {
+         c=1
+         //document.write("not pallindrom");
+         break
+       }
+   }
+
+  if(c==0)
+  {
+    document.write(s + "<br>")
+  }
+   }
+
+</script>
+
+</head>
+<body>
+
+
+</body>
+
+</html>
